@@ -6,9 +6,9 @@ const { SuccessResponse, ErrorResponse } = require("../utils/common");
 /*
  * POST : /api/v1/ticket/
  * req.body = {
- *             subject : "nilaybasak@gmail.com",
- *             content : "12345678",
- *             recepientEmail : "",
+ *             subject : "Booking Pending",
+ *             content : "Your booking is pending",
+ *             recepientEmail : "nilaybasak@gmail.com",
  *             status : "PENDING"
  *            }
  */
